@@ -1,0 +1,65 @@
+:root:not(.theme-dark) {
+    --tv-color-platform-background: transparent;
+    --tv-color-pane-background: #fff;
+    --tv-color-toolbar-button-background-hover: transparent;
+    --tv-color-toolbar-button-text: #81858c;
+    --tv-color-toolbar-button-text-hover: #101014;
+    --tv-color-toolbar-button-text-active: #f7a600;
+    --tv-color-toolbar-button-text-active-hover: #f7a600;
+    --tv-color-toolbar-toggle-button-background-active: #f7a600;
+    --tv-color-toolbar-toggle-button-background-active-hover: #f7a600;
+}
+
+.theme-dark:root {
+    --tv-color-platform-background: transparent;
+    --tv-color-pane-background: #101014;
+    --tv-color-toolbar-button-background-hover: transparent;
+    --tv-color-toolbar-button-text: #adb1b8;
+    --tv-color-toolbar-button-text-hover: #fff;
+    --tv-color-toolbar-button-text-active: #f7a600;
+    --tv-color-toolbar-button-text-active-hover: #f7a600;
+    --tv-color-toolbar-toggle-button-background-active: #f7a600;
+    --tv-color-toolbar-toggle-button-background-active-hover: #f7a600;
+}
+
+/* 隐藏商品信息 */
+.series-l31H9iuA .noWrapWrapper-l31H9iuA {
+    display: none;
+}
+
+/* 修改图表背景色 */
+.chart-page .chart-container-border {
+    background-color: transparent;
+}
+
+.chart-page {
+    font-family: 'Helvetica Neue';
+}
+
+/* legend 样式 */
+[data-name="legend"] {
+    margin-left: 0;
+}
+
+[data-name="legend-series-item"] .valueItem-l31H9iuA {
+    font-size: 11px;
+}
+
+.item-l31H9iuA {
+    font-size: 12px;
+}
+
+.titleWrapper-l31H9iuA {
+    align-items: center;
+}
+
+/* 底部菜单 */
+.chart-toolbar .toolbar-BXXUwft2,
+.chart-toolbar .js-button-text {
+    font-size: 12px;
+}
+
+.chart-toolbar button {
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}

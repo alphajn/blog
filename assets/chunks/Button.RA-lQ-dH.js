@@ -1,0 +1,1 @@
+import{_ as t,c as n,o,r as s}from"./framework.Df0lKNsS.js";const _={},c={type:"button",class:"btn"};function r(e,a){return o(),n("button",c,[s(e.$slots,"default",{},void 0,!0)])}const u=t(_,[["render",r],["__scopeId","data-v-756a257e"]]);export{u as _};
